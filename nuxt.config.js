@@ -41,7 +41,7 @@ export default {
   */
   plugins: [
     '~/plugins/typed.js',
-    '~/plugins/particle.js',
+    {src:"~/plugins/particle.js",ssr:false}
   ],
   /*
   ** Auto import components
